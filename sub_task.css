@@ -1,10 +1,67 @@
 
-
-img{
-    width: 100%;
-}
-
 .back {
     margin : 0 45%;
 }
+
+.header {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header .btn1 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    /* padding: 0px 0px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+
+  .header .btn2 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    /* font-size: 16px; */
+    /* padding: none; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+
+  .header .btn3 {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    /* font-size: 16px; */
+    /* padding: 0 0; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+  
+  .header .btn:hover {
+    background-color: black;
+  }
 
