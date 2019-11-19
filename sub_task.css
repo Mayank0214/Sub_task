@@ -1,9 +1,5 @@
 
-.back {
-    margin : 0 45%;
-}
-
-.header {
+ .header {
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -14,28 +10,28 @@
     height: auto;
   }
   
-  .header .btn1 {
+  .header .fa-chevron-left {
     position: absolute;
     top: 5%;
-    left: 25%;
+    left: 10%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
+    background-color: white;
+    color: #555;
     /* padding: 0px 0px; */
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     /* text-align: center; */
   }
 
   .header .btn2 {
     position: absolute;
     top: 5%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    /* background-color: #555; */
     color: white;
     /* font-size: 16px; */
     /* padding: none; */
@@ -51,7 +47,7 @@
     left: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: mediumspringgreen;
     color: white;
     /* font-size: 16px; */
     /* padding: 0 0; */
@@ -65,3 +61,102 @@
     background-color: black;
   }
 
+   /* .header div.card {
+    position: absolute;
+    top : 99%;
+    left: 25%;
+    transform: translate(-40%, -40%);
+    -ms-transform: translate(0%, 0%);
+    background-color: black;
+    padding: 2% 100%;
+    cursor: pointer; 
+    text-align: center;
+  }   */
+
+  /* .header .card .back {
+    margin : 0 45%;
+} */
+
+/* div.card {
+  border: solid lightseagreen 2px;
+  /* border-top-left-radius: 15%; 
+} */
+
+.header div.card {
+  background-color: white;
+  position: absolute;
+  padding: 20px;
+  top: 95%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.header h3 {
+  background-color: mediumspringgreen ;
+  border-radius: 10px;
+  padding-left: 10px;
+  color : whitesmoke;
+}
+
+.btn4 {
+  padding: 0px 0px;
+  width: inline;
+  text-align: center;
+  /* align-items: center; */
+}
+
+ul.lists li {
+  display: inline;
+  padding : 10px;
+}
+
+ul.lists li div {
+  display: inline;
+}
+
+ul.lists li div p{
+  display: inline;
+}
+
+.fa-chevron-up {
+  position: absolute;
+  color: firebrick;
+  left: 48%;
+  font-size: 25px;
+  top: 0%;
+}
+
+.fa-chevron-left {
+  color: black;
+  background-color: whitesmoke;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+.fa-share-alt {
+  position : absolute;
+  font-size: 30px;
+  color: black;
+  background-color: whitesmoke;
+  border-bottom: solid black 1px;
+  padding: 8px 10px;
+  border-radius: 50%;
+  left: 80%;
+  top: -5%;
+}
+
+/* label {
+  position: absolute;
+  left: 46.5%;
+} */
+
+#yellow {
+  background-color: lemonchiffon;
+  color: darksalmon;
+  margin: 0px 15px;
+  border-radius: 10px;
+}
+
+#green {
+  background-color: mediumspringgreen;
+  color: white;
+}
