@@ -144,39 +144,35 @@ ul.lists li div p{
   top: -3%;
 }
 
-/* label {
-  position: absolute;
-  left: 46.5%;
-} */
-
 #yellow {
   background-color: rgb(228, 222, 174);
   color: rgb(206, 124, 97);
   border-radius: 10px;
+  height: 54px;
+  line-height: 11px;
+  padding: 6px;
 }
 
 #green {
   background-color: mediumspringgreen;
   color: white;
   border-radius: 10px;
+  height: 54px;
+  line-height: 11px;
+  padding: 6px;
 }
 
-.fa-stethoscope {
+.fa {
   font-size: x-large;
 }
 
 .col-2 {
   text-align: center;
   margin-bottom: 15px;
-  margin-right: 5px;
-}
-
-.fa-ambulance{
-  font-size: x-large;
-}
-
-.fa-user-md {
-  font-size: x-large;
+  font-size: 9px;
+  height: 54px;
+  line-height: 11px;
+  padding: 6px;                  
 }
 
 #last {
@@ -184,4 +180,8 @@ ul.lists li div p{
   color: rgb(206, 124, 97);
   border-radius: 10px;
   padding : 2px 2px;
+}
+
+.info {
+  color: #555;
 }
